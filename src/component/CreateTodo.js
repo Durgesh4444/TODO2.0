@@ -71,7 +71,7 @@ const CreateTodo = () => {
       <div className="main-div">
         <div className="child-div">
           <h1>Todo-List</h1>
-          <p>Add Your List here......</p>
+          <p>Add Your Daily Task here......</p>
         </div>
 
         <div className="add-item">
