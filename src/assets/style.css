@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(56, 2, 56);
+}
+
+.main-div{
+    background-color:rgb(56, 2, 56);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.child-div{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    background-color:rgb(195, 80, 195);
+    border-radius: 10px;
+    width:400px ;
+    padding: 10px;
+
+}
+
+.child-div h1{
+    font-size: 40px;
+}
+.add-item{
+    width: 400px;
+    display: flex;
+    margin: 20px 0;
+}
+
+.add-item input{
+    width: 80%;
+    border-radius: 10px;
+    height: 39px;
+    padding-left: 20px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
+    font-size: 16px;
+}
+
+.add-item button{
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color:rgb(195, 80, 195) ;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.add-item button:hover{
+background-color:rgb(132, 33, 132);
+}
+
+.show-item{
+    padding-top:10px ;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.show-item .each-item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 10px;
+    height: 40px;
+    padding: 15px;
+    color:#fff;
+    background-color:rgb(195, 80, 195); 
+    align-items: center;
+    transition: 0.5s;
+}
+
+.show-item .each-item:hover{
+    background-color:#fff ;
+    color: gray;
+}
+
+.show-item .btn{
+   
+   display: none;
+}
+
+.show-btn{
+    
+    width: 50%;
+   height: 40px;
+   font-size: 16px;
+   font-weight: 600;
+   cursor: pointer;
+   transition: 0.5s;
+   border-radius: 5px;
+   color: gray;
+   margin-top: 20px;
+   display: block;
+}
+
+
+.fa-trash:hover{
+    color: rgb(255, 0, 0);
+}
+
+.fa-pen-to-square:hover{
+    color: rgb(25, 250, 25);
+}
+
+.show-btn:hover{
+    background-color:rgb(195, 80, 195) ;
+    color: #fff;
+    border: none;
+    
+}
