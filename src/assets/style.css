@@ -132,7 +132,7 @@ background-color:rgb(132, 33, 132);
 
 @media  (max-width:420px) {
     .child-div, .add-item ,.show-item{
-        width: 350px;     
+        width: 330px;     
     }
      
 }
